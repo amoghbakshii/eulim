@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:url(/assets/sustainable-travel-concept.jpg);
+  background-size: 100%;
+}
+
+    #calculator {
+      background-color: #dae814;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      height: 500px;
+      width: 500px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 130px;
+      box-sizing: border-box;
+    }
+
+    button {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      background: #0ef;
+      box-shadow: 0 0 10px #0ef;
+      font-size: 16px;
+      color: #000;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+    }
+      
+    
+
+
+    #result {
+      font-size: 18px;
+      margin-top: 20px;
+      border: #000;
+    }
+
+
+    /* General styling for the select element */
+#materialType {
+  width: 200px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #e9b109;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Styling for the dropdown arrow */
+#materialType::-ms-expand {
+  display: none; /* Hide default arrow in IE11 */
+}
+
+/* Styling for the options */
+#materialType option {
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the selected option */
+#materialType option:checked,
+#materialType option:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/Users/sanyamchanana/Desktop/calculator.css">
+</head>
+
+<body>
+
+<div id="calculator">
+  <h1><label for="materialType">Material Type:</label></h1>
+  <select id="materialType">
+    <option value="metal">PAPER</option>
+    <option value="plastic">STEEL</option>
+    <option value="paper">COPPER</option>
+    <option value="plastic">ALUMINIUM</option>
+    <option value="paper">PLASTIC</option>
+  </select>
+
+  <h2><label for="materialWeight">Material Weight (kg):</label></h2>
+  <input type="number" id="materialWeight" placeholder="Enter material weight" required>
+
+  <button onclick="calculateRate()">Calculate Rate</button>
+
+  <div id="result"></div>
+</div>
+<script src="/Users/sanyamchanana/Desktop/calculator.js"></script>
+
+</body>
+</html>
+
+
+
